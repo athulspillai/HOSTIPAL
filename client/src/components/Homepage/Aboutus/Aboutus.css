@@ -1,0 +1,126 @@
+.about-us {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.aboutus-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-image-col {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.aboutus-image-col::before,
+.aboutus-image-col::after {
+    content: '';
+    position: absolute;
+    background-color: #07d3a2;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.aboutus-image-col::before {
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: -50px;
+}
+
+.aboutus-image-col::after {
+    width: 200px;
+    height: 200px;
+    bottom: -70px;
+    right: -70px;
+}
+
+.aboutus-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.aboutus-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(7, 211, 162, 0.5), );
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.aboutus-content-col {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.aboutus-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #010a12;
+    margin-bottom: 20px;
+}
+
+.aboutus-description {
+    font-size: 1.2rem;
+    color: #010a12;
+    margin-bottom: 20px;
+    font-family: 'Poppins', serif;
+}
+
+.aboutus-features {
+    margin-bottom: 20px;
+}
+
+.feature-col {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    width: 10%;
+    font-size: 2rem;
+    color: #07d3a2;
+    margin-right: 10px;
+}
+
+.feature-text {
+    font-size: 1rem;
+    color: #010a12;
+    font-family: 'Poppins', serif;
+}
+
+.aboutus-button {
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    border: #4a2d7d;
+    background-color: #4a2d7d;
+    border-color: #4a2d7d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus-title {
+        font-size: 1.5rem;
+    }
+
+    .aboutus-description {
+        font-size: 0.8rem;
+    }
+
+    .feature-text {
+        font-size: 0.6rem;
+    }
+}

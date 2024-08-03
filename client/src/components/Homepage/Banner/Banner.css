@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.doctor-banner {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-head {
+    height: 50rem;
+    position: relative;
+}
+
+.banner-img-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img-background {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #07d3a2;
+    border-radius: 50%;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    color: #07d3a2;
+}
+
+.plus-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.plus-image {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    /* Adjust height as needed */
+}
+
+.plus-image-1 {
+    top: 20px;
+    left: 30px;
+}
+
+.plus-image-2 {
+    top: 100px;
+    right: 50px;
+}
+
+.plus-image-3 {
+    bottom: 50px;
+    left: 100px;
+}
+
+.firstaid-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.firstaid-image {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.firstaid-image-1 {
+    top: 5rem;
+    right: 50rem;
+}
+
+.firstaid-image-2 {
+    top: 20rem;
+    right: 0rem;
+}
+
+.firstaid-image-3 {
+    top: 40rem;
+    right: 50rem;
+}
+
+.banner-button {
+    background-color: #07d3a2;
+    border: none;
+    outline: none;
+    padding: 10px 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.banner-text-head {
+    color: #010a12;
+    font-family: 'Poppins', serif;
+}
+
+.medico-title {
+    color: #4a2d7d;
+}
+
+
+.banner-sec-text {
+    color: #07d3a2;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.centered-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 900;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.centered-heading h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.centered-heading b {
+    font-size: 2.5rem;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #07d3a2;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-text-head {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Poppins', serif;
+}
+
+.banner-sec-text {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-para {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #010a12;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-button {
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    border: #4a2d7d;
+    background-color: #4a2d7d;
+    border-color: #4a2d7d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-button:hover {
+    background-color: #4a2d7d;
+    border-color: #4a2d7d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .banner-head {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner-img-wrapper {
+        order: 1;
+    }
+
+    .banner-img-background {
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner-img {
+        max-width: 100%;
+    }
+
+    .plus-image-1 {
+        top: 10px;
+        left: 20px;
+    }
+
+    .plus-image-2 {
+        top: 60px;
+        right: 30px;
+    }
+
+    .plus-image-3 {
+        bottom: 30px;
+        left: 50px;
+    }
+
+    .firstaid-image-1 {
+        top: 150px;
+        left: 60px;
+    }
+
+    .firstaid-image-2 {
+        top: 475px;
+        right: 30px;
+    }
+
+    .firstaid-image-3 {
+        top: -15px;
+        right: 100px;
+    }
+
+    .banner-text-head {
+        font-size: 1.2rem;
+    }
+
+    .banner-sec-text {
+        font-size: 1.5rem;
+    }
+
+    .banner-para {
+        font-size: 1rem;
+    }
+
+    .banner-button {
+        padding: 5px 10px;
+    }
+}
